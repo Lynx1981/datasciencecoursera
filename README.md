@@ -5,4 +5,5 @@ What it does:<br/>
 3. It assigns the column names using the names from feature.txt<br/>
 4. it selects only the columns containing means and stardand derivations<br/>
 5. it creates a new data frame where for all the variables the average is calulated, grouped by subject and activity<br/>
-6. it outputs this data frame<br/>
+6. it adds the names for grouping dimensions and adds "Average_" to variable names to reflect the fact that the mean value is calculates<br/>
+7. it outputs this data frame<br/>
