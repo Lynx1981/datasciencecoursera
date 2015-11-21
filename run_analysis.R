@@ -25,3 +25,4 @@ aggregated.data <- aggregate(tidy.data[,c(-1,-2)], list(tidy.data$subject, tidy.
 names(aggregated.data) <- sub("", "Average_", names(aggregated.data))
 names(aggregated.data)[1] <- "Subject"
 names(aggregated.data)[2] <- "Activity"
+aggregated.data
